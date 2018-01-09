@@ -3,7 +3,7 @@ fs = require('fs')
 
 var yaml = require('js-yaml');
 
-const hoonFrontmatter = yaml.safeLoadAll(fs.readFileSync('./test-yaml.txt', 'utf8'), function (data) {
+let hoonFrontmatter = yaml.safeLoadAll(fs.readFileSync('./test-yaml.txt', 'utf8'), function (data) {
 //  console.log(data);
 
   if (data === null) {
@@ -12,24 +12,23 @@ const hoonFrontmatter = yaml.safeLoadAll(fs.readFileSync('./test-yaml.txt', 'utf
 
   else {
     let yamlKeys = Object.keys(data);
-    console.log(yamlKeys);
-    console.log(":-  :~  " + yamlKeys[0] + "/'" + data[yamlKeys[0]] + "'\n");
+    let result = ":-  :~  " + yamlKeys[0] + "/'" + data[yamlKeys[0]] + "'\n";
+//    let result = ":-  :~  [%" + yamlKeys[0] + " '" + data[yamlKeys[0]] + "']\n";
     yamlKeys.shift();
-    console.log(yamlKeys);
     if (yamlKeys === null) {
-      return null;
+      result = result + "    ==\n";
+      return result;
     }
     else {
-      console.log(yamlKeys.forEach(function(key) {
-                    console.log("        " + key + "/'" + data[key] + "'\n");
-                  }));
+      yamlKeys.forEach(function(key) {
+        result = result + "        " + key + "/'" + data[key] + "'\n";
+//        result = result + "        [%" + key + " '" + data[key] + "']\n";
+      });
     }
-//      console.log(":-  :~  " + yamlKeys.forEach(function(key) {
-//                                 return key + "/" + yamlKeys[key] + "\n        ";
-//                               }));
-    return null;
+    result = result + "    ==\n";
+    console.log(result);
+    return result;
   }
-
 });
 
 return hoonFrontmatter;
