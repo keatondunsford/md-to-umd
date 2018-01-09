@@ -1,0 +1,24 @@
+{
+  "name": "md-to-umd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert-markdown.js",
+  "dependencies": {
+    "concat-files": "^0.1.1",
+    "marked": "^0.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keatondunsford/md-to-umd.git"
+  },
+  "author": "Keaton Dunsford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keatondunsford/md-to-umd/issues"
+  },
+  "homepage": "https://github.com/keatondunsford/md-to-umd#readme"
+}
