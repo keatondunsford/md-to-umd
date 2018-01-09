@@ -1,5 +1,7 @@
 ---
 title: Hello, Mars
+date: today
+foo: bar
 ---
 
 Hello, Mars
