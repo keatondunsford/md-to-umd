@@ -5,6 +5,7 @@
   "main": "convert-md.js",
   "dependencies": {
     "concat-files": "^0.1.1",
+    "glob": "^7.1.2",
     "js-yaml": "^3.10.0",
     "marked": "^0.3.12"
   },

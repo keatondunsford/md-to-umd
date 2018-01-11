@@ -14,17 +14,19 @@ _**Hip hip!**_\
 __*Hip hip!*__\
 **_Hooray!_**
 
-There are several reasons why we are going to light Arvo's CommonMark code on fire and throw it out the window:
+***
 
-1. It's horrible
-2.  It's so horrible
-3.   It's an offense to humanity that it actually exists
-4.    How can there be this much syntax?
+    Here's a code block
+    which spans a couple of lines
 
-Luckily, we have some options:
+There are several reasons why we are going to light Arvo's CommonMark code on fire and throw it out the window.
 
-* Light it all on fire
-*  Start over from scratch
-*   Fire the whole team if ours is as bad
+Luckily, we have some options.
 
+Here's a quote:
+
+> I will personally set the CommonMark parser and jet on fire and throw
+> them out the window onto 20th St.
+>
+> -Curtis Yarvin, `~sorreg-namtyv`
 
