@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "concat-files": "^0.1.1",
     "glob": "^7.1.2",
     "js-yaml": "^3.10.0",

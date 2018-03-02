@@ -1,37 +1,15 @@
 ---
-title: Hello, Mars
-date: today
-foo: bar
+title: Lists
+date: ~2018.1.17
 ---
 
-Hello, Mars
-============
+1. Here's the first ordered sentence.
+2.  Here's the second.
+3.   And here's the third one.
 
-Introduction
-------------
+Here's a paragraph.
 
-This is a **CommonMark** file, rendered as *HTML*.
-
-Luckily, __CommonMark__ is going away.
-
-_**Hip hip!**_\
-*__Hooray!__*\
-__*Hip hip!*__\
-**_Hooray!_**
-
-***
-
-    Here's a code block
-    which spans a couple of lines
-
-There are several reasons why we are going to light Arvo's CommonMark code on fire and throw it out the window.
-
-Luckily, we have some options.
-
-Here's a quote:
-
-> I will personally set the CommonMark parser and jet on fire and throw
-> them out the window onto 20th St.
->
-> -Curtis Yarvin, `~sorreg-namtyv`
+* This is the first unordered item.
+*  This is the second.
+*   And this is the third.
 
